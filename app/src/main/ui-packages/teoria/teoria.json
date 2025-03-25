@@ -1,0 +1,124 @@
+{
+  "name": "teoria",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "oT0sjyOQ78mQHixdce98Jv",
+    "node": "3:222",
+    "version": "2198416223196258759",
+    "component-id": "1e1ab83f3a13b81986ed9ce51bea12759fc676aa"
+  },
+  "default": "Teoria",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "text",
+        "id": "Label"
+      }
+    ],
+    "modes": {
+      "Teoria": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$ClickTeoria",
+            "is-structured": false,
+            "children": [
+              "Rectangle 1",
+              "Label"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Label",
+            "margin": {
+              "top": 59.0,
+              "right": 1.4210854715202004e-14,
+              "bottom": 59.0
+            },
+            "relative-transform": [
+              [
+                -1.8369702788777518e-16,
+                -1.0,
+                0.0
+              ],
+              [
+                1.0,
+                -1.8369702788777518e-16,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Teoría",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 24.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "ClickTeoria": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Al dar click en teoria"
+    }
+  },
+  "previews": [
+    {
+      "design": "Teoria",
+      "size": {
+        "width": 100.0,
+        "height": 168.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

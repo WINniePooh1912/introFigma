@@ -1,0 +1,274 @@
+{
+  "name": "ejercicios",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "oT0sjyOQ78mQHixdce98Jv",
+    "node": "3:114",
+    "version": "2198407387856940562",
+    "component-id": "37f95f67cc68d364bf9e1bb9d7a37b943dfe4a8b"
+  },
+  "default": "ejercicios",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "title"
+      },
+      {
+        "type": "group",
+        "id": "Group 2"
+      },
+      {
+        "type": "group",
+        "id": "Group 1"
+      },
+      {
+        "type": "adin_component",
+        "id": "Button2",
+        "key": "button2"
+      },
+      {
+        "type": "text",
+        "id": "label3"
+      },
+      {
+        "type": "text",
+        "id": "label2"
+      },
+      {
+        "type": "text",
+        "id": "label1"
+      }
+    ],
+    "modes": {
+      "ejercicios": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 20.0,
+            "cross-axis-align": "start",
+            "children": [
+              "title",
+              "Group 2"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 45.18072289156627,
+              "saturation": 0.6859504132231404,
+              "value": 0.9490196078431372
+            },
+            "clip-content": false
+          },
+          {
+            "id": "title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 150.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Ejercicios",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 24.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "Group 2",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 285.59320068359375
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Group 1",
+              "Button2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 140.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "label3",
+              "label2",
+              "label1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Button2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 150.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 8.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 135.59320068359375
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            }
+          },
+          {
+            "id": "label3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.927093505859375
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 32.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 139.07284545898438
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": ">...",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "label2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.927093505859375
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 16.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 139.07284545898438
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": ">Calculadora",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "label1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 139.07284545898438
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": ">Hola mundo",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "ejercicios",
+      "size": {
+        "width": 330.0,
+        "height": 121.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

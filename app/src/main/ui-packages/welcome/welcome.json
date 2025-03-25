@@ -1,0 +1,203 @@
+{
+  "name": "welcome",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "oT0sjyOQ78mQHixdce98Jv",
+    "node": "3:107",
+    "version": "2198416223196258759",
+    "component-id": "30083d726a85658f6f833fba7997982dc7c5910d"
+  },
+  "default": "welcome",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "title"
+      },
+      {
+        "type": "text",
+        "id": "label"
+      },
+      {
+        "type": "group",
+        "id": "progress bar"
+      },
+      {
+        "type": "vector",
+        "id": "progress bar1"
+      },
+      {
+        "type": "vector",
+        "id": "progress"
+      }
+    ],
+    "modes": {
+      "welcome": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 25.0,
+              "top": 18.0,
+              "right": 25.0,
+              "bottom": 18.0
+            },
+            "border-radius": 20.0,
+            "cross-axis-align": "start",
+            "children": [
+              "title",
+              "label",
+              "progress bar"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 145.0,
+              "saturation": 0.463768115942029,
+              "value": 0.8117647058823529
+            },
+            "clip-content": false
+          },
+          {
+            "id": "title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 243.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Bienvenido Sly",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 24.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "label",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 81.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Progreso:",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.3200000762939452,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "progress bar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 250.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 3.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "progress bar1",
+              "progress"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "progress bar1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 250.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            },
+            "vector-content": "progress_bar.svg"
+          },
+          {
+            "id": "progress",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -4.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 200.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            },
+            "vector-content": "progress.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "welcome",
+      "size": {
+        "width": 330.0,
+        "height": 100.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

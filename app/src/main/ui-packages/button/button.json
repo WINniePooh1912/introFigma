@@ -1,0 +1,120 @@
+{
+  "name": "button",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "oT0sjyOQ78mQHixdce98Jv",
+    "node": "3:124",
+    "version": "2198416223196258759",
+    "component-id": "c2c72488208886109813dc206ba370807de23719"
+  },
+  "default": "State=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Label"
+      }
+    ],
+    "modes": {
+      "State=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 16.0,
+            "border-radius": 20.0,
+            "arrangement": "row",
+            "children": [
+              "Label"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 145.0,
+              "saturation": 0.463768115942029,
+              "value": 0.8117647058823529
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Label",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Inicia Sesión",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.3200000762939452,
+            "typeface": "JetBrains Mono"
+          }
+        ]
+      },
+      "State=Pressed": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 16.0,
+            "border-radius": 20.0,
+            "arrangement": "row",
+            "children": [
+              "Label"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Label",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 145.0,
+              "saturation": 0.463768115942029,
+              "value": 0.8117647058823529
+            },
+            "text-content": "Registrarse",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.3200000762939452,
+            "typeface": "JetBrains Mono"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "State=Default",
+      "size": {
+        "width": 150.0,
+        "height": 50.0
+      }
+    },
+    {
+      "design": "State=Pressed",
+      "size": {
+        "width": 150.0,
+        "height": 50.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

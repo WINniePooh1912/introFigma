@@ -1,0 +1,197 @@
+{
+  "name": "atributos",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "oT0sjyOQ78mQHixdce98Jv",
+    "node": "3:115",
+    "version": "2198416223196258759",
+    "component-id": "2db7914c59dd8eff5458f8a0d204d0d6ed828ffb"
+  },
+  "default": "atributos",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "texto"
+      },
+      {
+        "type": "group",
+        "id": "scanner"
+      },
+      {
+        "type": "text",
+        "id": "Reconocimiento de imágen"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "image",
+        "id": "_1"
+      }
+    ],
+    "modes": {
+      "atributos": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "texto",
+              "scanner",
+              "Reconocimiento de imágen"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 210.0,
+              "saturation": 0.7391304347826088,
+              "value": 0.9019607843137255
+            },
+            "clip-content": false
+          },
+          {
+            "id": "texto",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 130.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Atributos",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 24.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "scanner",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 1",
+              "_1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Reconocimiento de imágen",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 150.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 254.99999999999994,
+              "saturation": 0.1081081081081081,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Reconocimiento de imágen",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.3200000127156573,
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "Ellipse 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 4.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              }
+            },
+            "image-content": "1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "atributos",
+      "size": {
+        "width": 150.0,
+        "height": 148.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
