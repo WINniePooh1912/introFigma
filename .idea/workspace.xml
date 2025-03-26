@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a8893d-9dc7-41b1-8551-5ec4580c7bad" name="Changes" comment="my initial commit :p" />
+    <list default="true" id="61a8893d-9dc7-41b1-8551-5ec4580c7bad" name="Changes" comment="my initial commit p2 :p" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,14 +25,25 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;WINniePooh1912&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "assignee": "WINniePooh1912"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WINniePooh1912"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/WINniePooh1912/introFigma.git",
@@ -62,7 +73,7 @@
     "com.google.relay.customTranslationFile": "",
     "com.google.relay.styleTranslationOption": "M3",
     "com.google.relay.theme": "androidx.compose.material3.MaterialTheme",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "hotfix",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/danio/OneDrive/Documentos/ceti/Moviles/HelloFigma/HelloFigma",
@@ -183,13 +194,33 @@
       <option name="project" value="LOCAL" />
       <updated>1742949428991</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="my initial commit p2 :p">
+      <option name="closed" value="true" />
+      <created>1742949744030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742949744030</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit :p" />
     <MESSAGE value="my initial commit :p" />
-    <option name="LAST_COMMIT_MESSAGE" value="my initial commit :p" />
+    <MESSAGE value="my initial commit p2 :p" />
+    <option name="LAST_COMMIT_MESSAGE" value="my initial commit p2 :p" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
